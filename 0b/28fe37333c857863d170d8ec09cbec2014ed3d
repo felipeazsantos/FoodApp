@@ -1,0 +1,32 @@
+docker-compose.yml
+  s_683f6e1ce2cb4a::t_a4347e0aa96b79 1-2,4-8,10-21,23-28
+  s_683f6e1ce2cb4a::t_9d079f5b69ea9c 3
+  h_a12d55a28e40e6 22
+  s_683f6e1ce2cb4a::t_a9d948f265d76b 9
+src/main/resources/application.yaml
+  s_683f6e1ce2cb4a::t_24545bcad72b02 5-7
+  s_683f6e1ce2cb4a::t_b6f01bb598acbb 8,12-18
+  h_a12d55a28e40e6 28
+  s_683f6e1ce2cb4a::t_4a922ea9faf6bd 9-11,19-27,29-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.9",
+  "base_commit_sha": "0b28fe37333c857863d170d8ec09cbec2014ed3d",
+  "prompts": {},
+  "humans": {
+    "h_a12d55a28e40e6": {
+      "author": "felipeazsantos <felipeasantos10@hotmail.com>"
+    }
+  },
+  "sessions": {
+    "s_683f6e1ce2cb4a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019eeb58-ed9e-7eb0-92ff-b8cd76e49eb2",
+        "model": "gpt-5.5"
+      },
+      "human_author": "felipeazsantos <felipeasantos10@hotmail.com>"
+    }
+  }
+}
