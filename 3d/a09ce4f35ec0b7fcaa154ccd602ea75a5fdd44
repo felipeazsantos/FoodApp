@@ -1,0 +1,26 @@
+src/main/java/dev/felipeazsantos/FoodApp/auth_users/dto/LoginResponse.java
+  h_a12d55a28e40e6 1-13
+src/main/java/dev/felipeazsantos/FoodApp/auth_users/entity/User.java
+  h_a12d55a28e40e6 1-64
+src/main/java/dev/felipeazsantos/FoodApp/auth_users/repository/UserRepository.java
+  h_a12d55a28e40e6 1-16
+src/main/java/dev/felipeazsantos/FoodApp/auth_users/entity/Role.java
+  h_a12d55a28e40e6 1-4
+src/main/java/dev/felipeazsantos/FoodApp/auth_users/dto/RegistrationRequest.java
+  h_a12d55a28e40e6 1-31
+src/main/java/dev/felipeazsantos/FoodApp/auth_users/dto/UserDTO.java
+  h_a12d55a28e40e6 1-30
+src/main/java/dev/felipeazsantos/FoodApp/auth_users/dto/LoginRequest.java
+  h_a12d55a28e40e6 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.9",
+  "base_commit_sha": "3da09ce4f35ec0b7fcaa154ccd602ea75a5fdd44",
+  "prompts": {},
+  "humans": {
+    "h_a12d55a28e40e6": {
+      "author": "felipeazsantos <felipeasantos10@hotmail.com>"
+    }
+  }
+}
