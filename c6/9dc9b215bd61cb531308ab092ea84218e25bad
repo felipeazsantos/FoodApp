@@ -1,0 +1,20 @@
+src/main/java/dev/felipeazsantos/FoodApp/enums/PaymentStatus.java
+  h_a12d55a28e40e6 1-9
+src/main/java/dev/felipeazsantos/FoodApp/enums/OrderStatus.java
+  h_a12d55a28e40e6 1-10
+src/main/java/dev/felipeazsantos/FoodApp/enums/NotificationType.java
+  h_a12d55a28e40e6 1-5
+src/main/java/dev/felipeazsantos/FoodApp/enums/PaymentGateway.java
+  h_a12d55a28e40e6 1-9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.9",
+  "base_commit_sha": "c69dc9b215bd61cb531308ab092ea84218e25bad",
+  "prompts": {},
+  "humans": {
+    "h_a12d55a28e40e6": {
+      "author": "felipeazsantos <felipeasantos10@hotmail.com>"
+    }
+  }
+}
