@@ -1,5 +1,6 @@
 package dev.felipeazsantos.FoodApp.auth_users.entity;
 
+import dev.felipeazsantos.FoodApp.cart.entity.Cart;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
