@@ -2,12 +2,14 @@ package dev.felipeazsantos.FoodApp.order.dtos;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import dev.felipeazsantos.FoodApp.auth_users.dtos.UserDTO;
 import dev.felipeazsantos.FoodApp.enums.OrderStatus;
 import dev.felipeazsantos.FoodApp.enums.PaymentStatus;
 import lombok.Data;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)

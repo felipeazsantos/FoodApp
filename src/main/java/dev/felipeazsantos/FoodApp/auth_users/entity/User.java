@@ -1,6 +1,10 @@
 package dev.felipeazsantos.FoodApp.auth_users.entity;
 
 import dev.felipeazsantos.FoodApp.cart.entity.Cart;
+import dev.felipeazsantos.FoodApp.order.entity.Order;
+import dev.felipeazsantos.FoodApp.payment.entity.Payment;
+import dev.felipeazsantos.FoodApp.review.entity.Review;
+import dev.felipeazsantos.FoodApp.role.entity.Role;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -49,7 +53,7 @@ public class User {
     private List<Order> orders;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-    private List<Order> reviews;
+    private List<Review> reviews;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<Payment> payments;

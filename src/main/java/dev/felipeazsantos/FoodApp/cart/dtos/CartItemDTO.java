@@ -2,6 +2,7 @@ package dev.felipeazsantos.FoodApp.cart.dtos;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import dev.felipeazsantos.FoodApp.menu.dtos.MenuDTO;
 import lombok.Data;
 
 import java.math.BigDecimal;
