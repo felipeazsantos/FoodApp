@@ -17,6 +17,6 @@ public class CorsConfig {
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
                         .allowedOrigins("*");
             }
-        }
+        };
     }
 }
