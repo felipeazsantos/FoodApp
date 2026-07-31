@@ -14,10 +14,6 @@ public class AwsConfig {
     @Value("${aws.s3.region}")
     private String awsRegion;
 
-    @Value("${aws.s3.bucket}")
-    private String awsBucket;
-
-
     @Value("${aws.accessKeyId}")
     private String awsAccessKeyId;
 
