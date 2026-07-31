@@ -48,3 +48,11 @@ server:
   port: 8090
 
 secretJwtString: food123456789app123456789food123456789app123456789
+
+#AWS CONFIG
+aws:
+  s3:
+    region:
+    bucket:
+  accessKeyId:
+  secretKey:
